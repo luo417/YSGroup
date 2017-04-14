@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6f6f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/iv_list_item_type2_pic"
+                android:layout_width="95dp"
+                android:layout_height="67dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_list_item_type2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/iv_list_item_type2_pic"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="喝什么茶预防高血压？茶道养生缓解亚健康"
+                android:textColor="#1f1f1f"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_list_item_type2_pic"
+                android:layout_below="@id/tv_list_item_type2_title"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_list_item_type2_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="家庭医生在线"
+                    android:textColor="#8d969b"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/comment" />
+
+                <TextView
+                    android:id="@+id/tv_list_item_type2_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:text="23"
+                    android:textColor="#8d969b"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/enshrine" />
+
+                <TextView
+                    android:id="@+id/tv_list_item_type2_enshrine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:text="787"
+                    android:textColor="#8d969b"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/iv_list_item_type2_delete"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/delete" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d7d7d7"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</FrameLayout>
+

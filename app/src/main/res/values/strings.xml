@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">养生圈子</string>
+    <string name="draweropen">抽屉打开</string>
+    <string name="drawerclose">抽屉关闭</string>
+</resources>

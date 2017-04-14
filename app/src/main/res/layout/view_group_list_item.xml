@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bg_rounded_rectangle"
+    android:orientation="horizontal">
+
+    <com.holy.yangsheng.view.CircleImageView
+        android:id="@+id/civ_group_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/tiger"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_group_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="腾讯新闻"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/tv_group_last_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_group_title"
+                android:layout_alignParentRight="true"
+                android:text="18:52"
+                android:textSize="12sp"
+                android:textColor="#696969"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_group_last_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这头猪活了9年，有专人伺候"
+                android:textSize="14sp"
+                android:textColor="#696969"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

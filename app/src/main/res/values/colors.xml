@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cd3d3d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#efeef0</color>
+    <color name="textBlack">#333534</color>
+    <color name="textGrey">#7b7b7b</color>
+    <color name="bgGrey">#f0f4f3</color>
+    <color name="content_other_text">#ff999999</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="notice_bg">#ffe32e20</color>
+    <color name="def_blue">#28a3ef</color>
+    <color name="chat_text_color">#373334</color>
+</resources>
